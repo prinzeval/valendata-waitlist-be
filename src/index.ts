@@ -11,7 +11,7 @@ const port = Number(process.env.PORT) || 5001;
 
 // Middleware
 app.use(cors({
-    origin: ['http://localhost:3000', 'http://localhost:3001', 'http://localhost:5173', 'https://valendata.com'],
+    origin: ['http://localhost:3000', 'http://localhost:3001', 'http://localhost:5173', 'https://valendata.com', 'https://www.valendata.com'],
     methods: ['POST', 'GET', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization'],
 }));
